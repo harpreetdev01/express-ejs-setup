@@ -1,0 +1,57 @@
+/* Reset default margin, padding, and box-sizing */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Reset body defaults */
+  body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: azure;
+    color:brown;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove default anchor styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset headings and paragraphs */
+  h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+  }
+  
+  /* Remove button defaults */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+  }
+  
+  /* Set images to be responsive */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Set base styles for form elements */
+  input, textarea, select, button {
+    outline: none;
+  }
+  
+  /* Ensure tables have proper spacing */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
